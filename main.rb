@@ -1,5 +1,4 @@
-def draw_button(label_text, point, foreground_color, is_dark_mode)
-    settings = ScreenSettings.new(label_text, point, foreground_color)
+def draw_button(settings, is_dark_mode)
     if is_dark_mode
         settings.darken_foreground
     else
