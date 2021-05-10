@@ -4,6 +4,7 @@ def draw_button(label_text, point, foreground_color, is_dark_mode)
         settings.darken_foreground
     else
         lighten_foreground(label_text, point, foreground_color)
+        settings.lighten_foreground
     end
 end
 
