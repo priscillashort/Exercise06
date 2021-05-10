@@ -24,5 +24,11 @@ class Point
 end
 
 class ScreenSettings
+    attr_reader :label_text, :point, :foreground_color
 
+    def initialize(label_text, point, foreground_color)
+        @label_text = label_text
+        @point = point
+        @foreground_color = foreground_color
+    end
 end
