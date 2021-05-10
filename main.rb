@@ -7,10 +7,6 @@ def draw_button(label_text, point, foreground_color, is_dark_mode)
     end
 end
 
-def darken_foreground(label_text, point, foreground_color)
-    paint(label_text, point, foreground_color - 10, '#111111')
-end
-
 def lighten_foreground(label_text, point, foreground_color)
     paint(label_text, point, foreground_color + 10, '#E0E0E0')
 end
