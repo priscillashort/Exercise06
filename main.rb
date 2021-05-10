@@ -10,3 +10,7 @@ end
 def darken_foreground(label_text, x, y, foreground_color)
     paint(label_text, x, y, foreground_color - 10, '#111111')
 end
+
+def lighten_foreground
+
+end
