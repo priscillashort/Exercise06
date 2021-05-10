@@ -22,3 +22,7 @@ class Point
         @y = y
     end
 end
+
+class ScreenSettings
+
+end
