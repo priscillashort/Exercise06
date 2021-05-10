@@ -15,5 +15,10 @@ def lighten_foreground(label_text, x, y, foreground_color)
 end
 
 class Point
+    attr_reader :x, :y
 
+    def initialize(x, y)
+        @x = x
+        @y = y
+    end
 end
